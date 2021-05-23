@@ -1,3 +1,4 @@
-# subwebb
+# Learning
 ---
-+ Test for learning git and to commit changes and so on.
+| Trying out github.
+| Mainly code in C#, Python and some Webb!
