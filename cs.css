@@ -1,0 +1,58 @@
+body {
+	padding: 1%;
+	background-color: #f1f1f1;
+}
+
+.head {
+	padding: 2%;
+	border-bottom: solid 2px;
+	background-color: #f2f2f2;
+	color: crimson;
+}
+
+.container {
+	display: flex;
+	flex-flow: column;
+	padding: 2%;
+	background-color: cornsilk;
+	
+}
+
+.rows {
+	display: flex;
+	background-color: cyan;
+	transition: ease-in-out;
+	transition-duration: 10s;
+}
+
+h2 {
+	margin-right: 5em;
+}
+
+h3 {
+	margin-top: 25px;
+}
+
+.main h4 {
+	font-weight: 500;
+	font-size: 20px;
+}
+
+button {
+	cursor: pointer;
+	border-color: darksalmon;
+	background-color: darkseagreen;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 8px;
+}
+
+#cusom {
+	padding-bottom: 3%;
+	border-bottom: solid 2px crimson;
+}
+
+#dem {
+	font-size: 30px;
+	padding: 2%;
+}
