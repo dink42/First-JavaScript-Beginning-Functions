@@ -4,7 +4,7 @@ body {
 }
 
 .head {
-	padding: 2%;
+	padding: 1%;
 	border-bottom: solid 2px;
 	background-color: #f2f2f2;
 	color: crimson;
@@ -15,17 +15,22 @@ body {
 	flex-flow: column;
 	padding: 2%;
 	background-color: cornsilk;
+	border-bottom: solid 2px red;
+	border-radius: 4px;
 	
 }
 
 .rows {
+	font-family: Verdana, Tahoma, sans-serif;
 	display: flex;
 	background-color: cyan;
 	transition: ease-in-out;
 	transition-duration: 10s;
+	border-radius: 5px;
 }
 
 h2 {
+	margin-left: 1em;
 	margin-right: 5em;
 }
 
@@ -33,18 +38,24 @@ h3 {
 	margin-top: 25px;
 }
 
-.main h4 {
+.main {
+	display: flex;
+	text-align: justify;
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 30px;
 }
 
 button {
 	cursor: pointer;
 	border-color: darksalmon;
 	background-color: darkseagreen;
-	padding: 10px;
+	padding: 16px;
 	font-size: 16px;
 	border-radius: 8px;
+	border-width: 16px;
+	margin-left: 5em;
+	margin-top: 1em;
+	margin-right: 1em;
 }
 
 #cusom {
